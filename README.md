@@ -3,7 +3,8 @@ Esse é o My Phonebook, um sistema criado com o objetivo de simplificar o uso de
 2 - Excluir contato - (nesta função o usuário poderá excluir um contato ja criado utilizando o nome) 
 3 - Listar contato - (mostra os contatos já criados anteriormente) 
 4 - Alterar contato - (a opção mais completa, onde você pode mudar o nome ou telefone de um contato ja criado)
-5 - Sair da sua agenda - (aqui você sairá totalmente da sua agenda)
+5 - Buscar contato - (função onde o indivíduo procura o contato pelo nome)
+6 - Sair da sua agenda - (sai totalmente da sua própria agenda)
 
 
 
