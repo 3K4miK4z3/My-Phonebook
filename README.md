@@ -21,7 +21,3 @@ Esse é o My Phonebook, um sistema criado com o objetivo de simplificar o uso de
 
 
 
-
-
-![image](https://github.com/3K4miK4z3/My-Phonebook/assets/165946390/27705d95-733f-4215-acc6-d8b1c50b15f0)
-
