@@ -51,7 +51,7 @@ def alterar_contato(agenda, nome_contato):
 
 def principal():
     while True:
-        print('====== AGENDA TELEFÔNICA ======')
+        print('====== MY PHONEBOOK ======')
         print(' 1 - Criar Contato')
         print(' 2 - Excluir Contato')
         print(' 3 - Listar Contatos')
