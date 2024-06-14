@@ -1,9 +1,18 @@
 agenda = []
 
+def buscar_contato(agenda, nome_contato):
+    for contato in agenda:
+        if contato['nome'] == nome_contato:
+            print(f'Contato encontrado : Nome : {contato['nome']} Telefone : {contato['telefone']}')
+            return
+    print('O contato não foi encontrado na agenda !!')
+
+
+
 def criar_contato(agenda, nome, telefone):
     contato = {'nome': nome, 'telefone': telefone}
     agenda.append(contato)
-    print('Seu contato foi criado com sucesso!')
+    print(f'Seu contato {contato["nome"]} foi criado com sucesso!')
 
 def excluir_contato(agenda, nome_contato):
     for contato in agenda:
@@ -47,7 +56,8 @@ def principal():
         print(' 2 - Excluir Contato')
         print(' 3 - Listar Contatos')
         print(' 4 - Alterar Contato')
-        print(' 5 - Sair da Agenda')
+        print(' 5 - Buscar Contato')
+        print(' 6 - Sair da Agenda')
         opcao = input('Qual será a opção escolhida? ')
 
         if opcao == '1':
@@ -67,6 +77,9 @@ def principal():
             alterar_contato(agenda, nome_contato)
         
         elif opcao == '5':
-            print('Saindo da sua agenda')
+            nome_contato = input('Digite o nome do contato que você quer achar: ')
+            buscar_contato(agenda,nome_contato)
+        else:
+            print('Saindo da sua agenda ... !!')
             break
 principal()
